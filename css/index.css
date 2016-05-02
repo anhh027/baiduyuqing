@@ -968,6 +968,28 @@ img{
     left:0;
     top: -170px;
 }
+/*ship*/
+.obj-ship {
+    left: 360px;
+}
+.obj-ship{
+    width: 242px;
+    height: 228px;
+    background: url(../images/ship_1ad6734.png);
+    /*left: 100px;*/
+    top: -191px;
+    animation: shipMove 1s linear forwards;
+}
+@keyframes shipMove{
+     0%{
+      transform:translateX(0);
+    }
+    100%{
+      transform:translateX(15px);
+    }
+  }
+
+/*ship end*/
 /* login */
 .uc-common-login {
     font: 14px/1.5 'Microsoft YaHei','微软雅黑',Helvetica,Sans-serif;
