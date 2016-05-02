@@ -990,6 +990,25 @@ img{
   }
 
 /*ship end*/
+/* 飞机 */
+.obj-flight {
+    width: 110px;
+    height: 65.5px;
+    background-image: url(../images/flight_ade8ee2.png);
+    left: 485px;
+    top: -210px;
+    background-size:110px 65.5px;
+    animation:flight 1.5s ease-in-out infinite alternate;
+}
+@keyframes flight{
+     0%{
+      transform:translateY(0);
+    }
+    100%{
+      transform:translateY(10px);
+    }
+  }
+/*flight*/
 /* login */
 .uc-common-login {
     font: 14px/1.5 'Microsoft YaHei','微软雅黑',Helvetica,Sans-serif;
