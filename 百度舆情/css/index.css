@@ -354,7 +354,7 @@ img{
     background-position: -124px -12px;
 }
 .uc-common-login .login-info .account span, .uc-common-login .login-info .password span {
-    background: url('../images/icons.png?20140305') no-repeat;
+    background: url('../images/icons.png') no-repeat;
     width: 14px;
     height: 14px;
     margin: 12px 3px 0 10px;
