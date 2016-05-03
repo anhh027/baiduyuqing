@@ -627,10 +627,11 @@ img{
 .section .title {
     position: absolute;
     left: 0;
-    top: 0;
+    top:0;
     font-family: 'Microsoft Yahei';
     color: #fff;
     width: 450px;
+    z-index:999;
 }
 .section-1 .title h3{
     background: url(../images/h_lingxian_221f2d8.png) no-repeat;
@@ -837,6 +838,7 @@ img{
     top: -140px;
     left: 82px;
 }
+
 .title-area-3 .obj-bubble {
     left: -30px;
     top: 115px;
@@ -1271,7 +1273,7 @@ img{
 .section .title {
     position: absolute;
     left: 0;
-    top: 0;
+    top: -90px;
     font-family: 'Microsoft Yahei';
     color: #fff;
     width: 420px;
@@ -1337,24 +1339,66 @@ img{
     opacity: 1;
 }
 .obj-brain {
-    width: 444px;
-    height: 427px;
+    /*width: 444px;
+    height: 427px;*/
+    width: 260px;
+    height: 251px;
     background: url(../images/brain_36a156f.png);
-    right: -14px;
-    top: 70px;
+    background-size:260px 251px;
+    right: 684px;
+    top: 260px;
     opacity:1;
 }
 .section-2 .content1 .title-area-2 .title{
-    top:170px;
+    top:100px! important;
     width:480px;
     left:-9px! important;
+    z-index:999;
 }
+.obj-allside {
+    right:680px;
+    opacity: 1;
+}
+.obj-allside {
+    /*width: 444px;
+    height: 330px;*/
+    width: 280px;
+    height: 208.2px;
+    background: url(../images/allside_e8abd12.png);
+    background-size:280px 208.2px;
+    /*right: 2px;*/
+    top: 170px;
+    opacity: 1;
+}
+
 /*section2 end*/
 /*section3*/
 .section-3 .content1 .title-area-3 .title{
-    top:170px;
+    top:80px! important;
     width:480px;
     left:-50px! important;
+}
+.title-area-3 .obj-bubble {
+    left: -30px;
+    top: 115px;
+    width: 275px;
+    height: 245px;
+    background: url(../images/bubble_3b0f897.png);
+}
+.obj-stat {
+    right: 80px;
+    opacity: 1;
+}
+.obj-stat {
+    /*width: 603px;
+    height: 361px;*/
+    width:400px;
+    height:240px;
+    background: url(../images/stat_8934528.png);
+    background-size:400px 240px;
+    right: 580px;
+    top: 93px;
+    opacity:1;
 }
 /*section2 end*/
 
